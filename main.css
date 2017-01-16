@@ -1,3 +1,82 @@
 main{
+	padding-top: 70px;
 	
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+nav{
+	background-color: grey;
+	height: 70px;
+	position: fixed;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: : right;
+	}
+nav p{
+	vertical-align: center;
+	font-size: 28px;
+	display: inline-block;
+	top:-10px;
+	position: absolute;
+
+}
+nav ul{
+	display: inline-block;
+	list-style: none;
+	float: right;
+	position: absolute;
+	top:12px;
+	right: 150px;
+	text-decoration: none;
+}	
+nav li{
+	display: inline-block;
+}
+nav a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+nav a:link{
+	color: purple;
+}
+nav a:hover{
+	color:black;
+}
+nav a:visited{
+	color: red;
+
+}
+
+
+.search_box{
+ 	width: 500px;
+ 	height: 50px;
+  	border: 1px solid grey;
+	display: inline-block;
+	border-radius:5px;
+	position: relative;
+	top:-19px;
+}
+.search_box input{
+	width: 500px;
+ 	height: 50px;
+  	padding-left: 25px;
+  	font-size: 24px;
+}
+.search_button{
+	width: 50px;
+	height:50px;
+	display: inline-block;
+	border: 1px solid gray;
+	border-radius: 5px;
+
+}
+.container{
+	top:125px;
+	margin-left: 15%;
+	position: relative;
 }
