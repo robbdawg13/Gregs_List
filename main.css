@@ -4,6 +4,8 @@ main{
 }
 body{
 	font-family: 'Roboto', sans-serif;
+	margin: 0;
+
 }
 nav{
 	background-color: grey;
@@ -75,8 +77,85 @@ nav a:visited{
 	border-radius: 5px;
 
 }
-.container{
+.container-1{
 	top:125px;
 	margin-left: 15%;
 	position: relative;
 }
+
+
+.nav_container{
+	top:150px;
+	margin-left: 15%;
+	font-size:0;
+	border: 1px solid gray;
+	border-radius: 5px;
+	position:relative;
+	height:38px;
+	display: inline-block;
+	
+}
+.nav_container *{
+	display: inline-block;
+	font-size:20px;
+	background: white;
+	padding: 6px 12px;
+	vertical-align: top;
+	
+}
+#page_count{
+	border-left: grey solid 1px;
+	border-right: grey solid 1px;
+	margin: 0;	
+	
+}
+#button{
+	box-shadow: none;
+	border: none;
+	text-decoration: none;
+	/*border: 1px solid gray;
+	border-radius: 5px;*/
+	color: black;
+
+}
+/*.nav_container p{
+	display: inline-block;
+	border: 1px solid gray;
+	font-size:18px;
+	background: white;
+}
+*/
+
+
+.results{
+	top: 175px;
+	margin-left:12%;
+	position: relative;
+}
+.results ul{
+	list-style: none;
+}	
+.results p{
+	color: : grey;
+	display: inline-block;
+	font-size:  18px;
+	font-style: bold;
+}
+.results a{
+	color: blue;
+	font-size:  22px;
+	font-style: bold;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right:5px;
+}
+a:hover{
+	color:black;
+}
+.results a:link{
+	color: blue
+}
+a:visited{
+	color: purple;
+}
+
