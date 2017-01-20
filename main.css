@@ -55,19 +55,22 @@ nav a:visited{
 
 
 .search_box{
- 	width: 500px;
- 	height: 50px;
-  	border: 1px solid grey;
-	display: inline-block;
-	border-radius:5px;
+ 	
+
+  	display: inline-block;
 	position: relative;
-	top:-19px;
-}
+	top:125px;
+	margin-left: 15%;
+	}
 .search_box input{
+	border: 1px solid grey;
+  	border-radius:5px;
 	width: 500px;
  	height: 50px;
-  	padding-left: 25px;
   	font-size: 24px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
 }
 .search_button{
 	width: 50px;
@@ -75,13 +78,8 @@ nav a:visited{
 	display: inline-block;
 	border: 1px solid gray;
 	border-radius: 5px;
+}
 
-}
-.container-1{
-	top:125px;
-	margin-left: 15%;
-	position: relative;
-}
 
 
 .nav_container{
